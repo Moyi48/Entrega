@@ -1,0 +1,52 @@
+#inicio h1{
+    color:rgb(255, 255, 255) ;
+}
+#inicio p{
+    font-size: 25;
+}
+
+
+#inicio{
+    color: white;
+    background-color: cadetblue;
+    
+}
+#inicio header{
+    justify-content: space-between;
+}
+
+#estudios{ 
+    color: white;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+#experiencia{
+    color: white;
+    background-color: cadetblue;
+}
+
+
+#contacto{
+    color: white;
+    background-color: cadetblue;
+}
+
+html{
+    background-color: cadetblue;
+}
+
+header{
+    display: flex;
+
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
