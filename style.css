@@ -1,6 +1,4 @@
-#inicio h1{
-    color:rgb(255, 255, 255) ;
-}
+
 #inicio p{
     font-size: 25;
 }
@@ -72,4 +70,18 @@ header nav ul{
     font-size: 25px;
 }
 
+@media screen and (max-width: 500px) {
+    h1 {color: red;}
+}
 
+@media screen and (max-width: 500px) {
+    h2 {color: darkorchid;}
+      }
+
+@media  screen and (max-width: 500px) {
+        p {color: greenyellow;}
+      }
+
+@media screen and (max-width: 500px) {
+    li {color: greenyellow;}
+} 
