@@ -6,39 +6,24 @@
 }
 
 
-#inicio{
-    color: white;
-    background-color: cadetblue;
-    
-}
 #inicio header{
     justify-content: space-between;
 }
 
-#estudios{ 
-    color: white;
-    text-align: center;
-    background-color: cadetblue;
+#inicio ul{
+    display: flex;
+    @media (max-width:500px) {
+        flex-direction: column;
+    }
 }
 
 li{
     list-style-type: none;
 }
 
-
-#experiencia{
-    color: white;
-    background-color: cadetblue;
-}
-
-
-#contacto{
-    color: white;
-    background-color: cadetblue;
-}
-
 html{
     background-color: cadetblue;
+    color: white;
 }
 
 header{
@@ -51,18 +36,40 @@ header nav ul{
     gap: 30px;
 }
 
-
-div{
-    display: grid;
-    grid-template-columns: 
-    repeat(
-        auto-fit,
-        minmax(150px, 1fr)
-        );
-    gap: 32px;
-}
 .imagen{
     width: 350px;
     height: 250px;
+    display: flex;
+}
+
+#estudios h1 {
+    display: flex;
     justify-content: center;
 }
+
+#estudios h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#estudios footer{
+    display: flex;
+    justify-content: center;
+}
+
+#estudios ul li{
+    display: flex;
+    justify-content: center;
+}
+
+#contact img{
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
+
+#contact{
+    font-size: 25px;
+}
+
+
