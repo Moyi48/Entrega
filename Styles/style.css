@@ -8,20 +8,15 @@
     justify-content: space-between;
 }
 
-#inicio ul{
-    display: flex;
-    @media (max-width:500px) {
-        flex-direction: column;
-    }
-}
+
 
 li{
     list-style-type: none;
 }
 
 html{
-    background-color: cadetblue;
-    color: white;
+    background-color: #ECE5C7;
+    color: #116A7B;
 }
 
 header{
@@ -38,6 +33,7 @@ header nav ul{
     width: 350px;
     height: 250px;
     display: flex;
+    
 }
 
 #estudios h1 {
@@ -70,18 +66,21 @@ header nav ul{
     font-size: 25px;
 }
 
-@media screen and (max-width: 500px) {
-    h1 {color: red;}
+
+/**celular**/
+
+@media (max-width: 767px) {
+    html {background-color: #F9F5E7;}
+    html {color: #A7727D;}
+    #inicio ul {display: flex; flex-direction: column;}
+    
+    
 }
 
-@media screen and (max-width: 500px) {
-    h2 {color: darkorchid;}
-      }
+/**tablet**/
 
-@media  screen and (max-width: 500px) {
-        p {color: greenyellow;}
-      }
-
-@media screen and (max-width: 500px) {
-    li {color: greenyellow;}
-} 
+@media (min-width:768px) and (max-width: 990px) {
+    html {background-color: #F8EDE3;}
+    html{color: #7D6E83;}
+    
+}
