@@ -1,0 +1,45 @@
+
+$primary-color: #ECE5C7;
+$secondary-color: #116A7B;
+
+@import "secundario/estudios";
+@import "secundario/inicio";
+@import "secundario/contacto";
+
+li{
+    list-style-type: none;
+}
+
+html{
+    background-color: $primary-color;
+    color: $secondary-color;
+}
+
+
+header{
+    display: flex;
+    nav ul {
+        display: flex;
+        gap: 30px;
+    }
+
+}
+
+/**celular**/
+
+@media (max-width: 767px) {
+    html {background-color: #F9F5E7;}
+    html {color: #A7727D;}
+    #inicio ul {display: flex; flex-direction: column;}
+    
+    
+}
+
+/**tablet**/
+
+@media (min-width:768px) and (max-width: 990px) {
+    html {background-color: #F8EDE3;}
+    html{color: #7D6E83;}
+    
+}
+
