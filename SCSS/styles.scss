@@ -6,13 +6,17 @@ $secondary-color: #116A7B;
 @import "secundario/inicio";
 @import "secundario/contacto";
 
+@mixin colorMixin () {
+    background-color: $primary-color;
+    color: $secondary-color;
+}
+
 li{
     list-style-type: none;
 }
 
 html{
-    background-color: $primary-color;
-    color: $secondary-color;
+    @include colorMixin();
 }
 
 
